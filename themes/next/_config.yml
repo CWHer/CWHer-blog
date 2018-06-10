@@ -29,8 +29,8 @@ override: false
 favicon:
   #small: /images/favicon-16x16-next.png
   #medium: /images/favicon-32x32-next.png
-  small: /images/logo_2-16.png
-  medium: /images/logo_2-32.png
+  small: /images/logo_3-16.png
+  medium: /images/logo_3-32.png
   apple_touch_icon: /images/logo_1.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
