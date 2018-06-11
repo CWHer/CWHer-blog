@@ -96,12 +96,16 @@ live2d:
   pluginJsPath: lib/
   pluginModelPath: assets/
   model:
-    # use: ./node_modules/live2d-widget-model-epsilon2_1
     use: ./node_modules/live2d-widget-model-neptune
+    scale: 1
+    hHeadPos: 5.5
+    vHeadPos: 0.618
   display:
-    position: left
+    position: right
     width: 240
-    height: 280
+    height: 260
+    # hOffset: 0
+    # vOffset: -20
   mobile:
     show: false
 
