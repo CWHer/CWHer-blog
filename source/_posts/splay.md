@@ -1,5 +1,5 @@
 ---
-title: 一个Splay模板
+title: 'Splay模板'
 date: 2018-06-11 15:57:52
 tags: [平衡树,模板]
 categories: OI
