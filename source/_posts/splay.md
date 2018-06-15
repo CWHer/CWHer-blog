@@ -5,6 +5,7 @@ tags: [平衡树,模板]
 categories: OI
 password:
 top: 0
+mathjax: false
 ---
 优化了一下之前Splay
 <!--more-->

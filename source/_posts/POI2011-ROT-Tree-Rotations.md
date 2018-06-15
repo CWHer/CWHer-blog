@@ -5,6 +5,7 @@ tags: [线段树]
 categories: OI
 password:
 top: 0
+mathjax: false
 ---
 对于每个节点分别求左-右，右-左的逆序对，将较小的加入答案
 原来思路：枚举个数较少的节点的每个数，二分求答案
