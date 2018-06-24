@@ -2,7 +2,7 @@
 title: '[POI2011]ROT-Tree Rotations'
 date: 2018-06-13 22:31:51
 tags: [线段树]
-categories: OI
+categories: [OI]
 password:
 top: 0
 mathjax: false

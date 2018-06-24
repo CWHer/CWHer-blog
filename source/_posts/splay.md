@@ -2,7 +2,7 @@
 title: 'Splay模板'
 date: 2018-06-11 15:57:52
 tags: [平衡树,模板]
-categories: OI
+categories: [OI]
 password:
 top: 0
 mathjax: false
