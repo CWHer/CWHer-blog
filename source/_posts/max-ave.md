@@ -9,7 +9,7 @@ mathjax: true
 ---
 **问题描述：**
 有n个物品的重量和价值分别是 wi 和 vi。从中选出k个物品使得单位重量的价值最大。
-<!--more-->
+
 根据定义
 $$
 \sum_{i=1}^{k}v_{i}=x\sum_{i=1}^{k}w_{i}
@@ -20,6 +20,7 @@ $$
 $$
 二分一下x，每次在$$\left (v _{i}-xw_{i} \right )$$贪心地找前k大的
 复杂度$$O\left ( nlog^{2}n \right )$$
+<!--more-->
 ```c++
 #include<cstdio>
 #include<algorithm>

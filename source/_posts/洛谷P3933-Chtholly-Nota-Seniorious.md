@@ -8,12 +8,13 @@ top: 0
 mathjax: false
 ---
 神奇的二分答案题
-<!--more-->
+
 根据题目奇奇怪怪的限制，不难发现选择的行和列要连续
 为了方便计算，将矩阵转置四次，每次只需考虑行要连续
 二分一下ans进行检验
 对于矩阵中的mins和maxs，显然二者不能分在一起
 根据mins，maxs和二分出来的ans，贪心地确定每个值所在的分组，若不连续则不合法
+<!--more-->
 ```c++
 #include<cstdio>
 #include<cstring>
