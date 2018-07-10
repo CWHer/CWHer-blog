@@ -1,6 +1,6 @@
 ---
-title: 'Splay模板'
-date: 2018-06-11 15:57:52
+title: 'Splay'
+date: 2018-06-12 15:57:52
 tags: [平衡树,模板]
 categories: [OI]
 password:
