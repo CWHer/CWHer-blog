@@ -12,11 +12,11 @@ mathjax: true
 每个点有一个权值w，和衰减速度v，每走1单位的路衰减v
 保证最优取法所有点权值均大于0
 
-用$$dp\left [i  \right ]\left [ s \right ]$$记录最小衰减值，其中*i*为当前点位置，*s*为当前状态
+用$$dp\left [i  \right ]\left [ s \right ]$$记录最小衰减值，其中*i* 为当前点位置，*s* 为当前状态
 $$
 dp\left [  j\right ]\left [{s}'  \right ] =min\left \{ dp\left [  i\right ]\left [  s\right ] +d\left [ i,j \right ]*\omega \left [ \sim s \right ]\right \}\left ( i\in s,j\notin s \right )
 $$
-其中$$d\left [ i \right ]\left [  j\right ]$$为*i*到*j*的距离，可以用*Floyd*处理
+其中$$d\left [ i \right ]\left [  j\right ]$$为*i* 到*j* 的距离，可以用*Floyd* 处理
 <!--more-->
 ```c++
 #include<cstdio>

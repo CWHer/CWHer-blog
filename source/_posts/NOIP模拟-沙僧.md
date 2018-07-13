@@ -11,7 +11,7 @@ mathjax: true
 给出一个n个点的树，其中1为根节点
 有m次操作，每次给以a为节点的子树中深度为d的节点+v
 
-用一个桶$$cnt\left [ d \right ]$$记录深度为*d*的节点要加的值，一遍dfs即可
+用一个桶$$cnt\left [ d \right ]$$记录深度为*d* 的节点要加的值，一遍dfs即可
 <!--more-->
 ```c++
 #include<cstdio>
