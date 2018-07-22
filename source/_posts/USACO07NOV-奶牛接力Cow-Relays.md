@@ -1,7 +1,7 @@
 ---
 title: '[USACO07NOV]奶牛接力Cow Relays'
 date: 2018-07-19 19:19:20
-tags: [图论,动态规划,矩阵加速]
+tags: [图论,DP,矩阵加速]
 categories: [OI]
 password:
 top: 0

@@ -7,7 +7,7 @@ password:
 top: 0
 mathjax: false
 ---
-优化了一下之前Splay
+优化了一下之前*Splay*
 <!--more-->
 ```c++
 #include<cstdio>

@@ -1,7 +1,7 @@
 ---
 title: '[NOIP模拟]八戒'
 date: 2018-07-06 09:18:36
-tags: [动态规划,状态压缩]
+tags: [DP,状态压缩]
 categories: [OI]
 password:
 top: 0
