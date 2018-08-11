@@ -1,7 +1,7 @@
 ---
 title: POJ2411 Mondriaan's Dream
 date: 2018-07-22 20:09:20
-tags: [DP,状态压缩]
+tags: [DP,状态压缩,轮廓线]
 categories: [OI]
 password:
 top: 0
