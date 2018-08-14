@@ -1,5 +1,5 @@
 ---
-title: CodeForces-739B
+title: CodeForces-739B Alyona and a tree
 date: 2018-08-12 14:54:52
 tags: [树形结构]
 categories: [OI]
@@ -7,7 +7,7 @@ password:
 top: 0
 mathjax: true
 ---
-**题目大意: **
+**题目大意： **
 给出一棵*n* 个节点的树，每条边有一个权值
 若*v* 在*u* 的子树内，且$$d_{u-v}\leq a_{v}$$，则称*u* 能控制*v*
 问每个点能控制多少点

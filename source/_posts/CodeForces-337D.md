@@ -1,5 +1,5 @@
 ---
-title: CodeForces-337D
+title: CodeForces-337D Book of Evil
 date: 2018-08-12 14:20:00
 tags: [树形结构,DP]
 categories: [OI]
