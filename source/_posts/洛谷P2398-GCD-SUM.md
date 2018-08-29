@@ -79,8 +79,8 @@ int main()
     {
     	f[i]=g[i];
     	for(LL j=2;i*j<=n;j++) f[i]-=f[i*j];
-    	ans+=f[i]*i; 	
-	}
+    	ans+=f[i]*i;
+    }
     printf("%lld",ans);
     return 0;
 }
