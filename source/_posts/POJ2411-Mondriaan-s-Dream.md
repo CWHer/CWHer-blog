@@ -31,12 +31,6 @@ inline int read()
     while (ch>='0'&&ch<='9') x=x*10+ch-48,ch=getchar();
     return x*t;
 }
-inline char get()
-{
-    register char ch=getchar();
-    while (ch!='.'&&ch!='x') ch=getchar();
-    return ch;
-}
 int main()
 {
     while (n=read(),m=read())
@@ -54,8 +48,7 @@ int main()
                     else
                     {
                         dp[now][(s<<1)&((1<<m)-1)]+=dp[now^1][s];
-                        if (j>=2&&!(s&1))
-                            dp[now][((s<<1)|3)&((1<<m)-1)]+=dp[now^1][s];
+                        if (j!=1&&!(s&1)) dp[now][((s<<1)|3)&((1<<m)-1)]+=dp[now^1][s];
                     }
             }    
         printf("%lld\n",dp[(n*m)&1][(1<<m)-1]);

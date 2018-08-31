@@ -42,8 +42,7 @@ int main()
             {
                 dp[now][(s<<1)&r]=(dp[now][(s<<1)&r]+dp[now^1][s])%mod;
                 if (w[i][j]&&(s>>(m-1))&1^1)
-                    if (s&1^1||j==1)
-                        dp[now][(s<<1)|1&r]=(dp[now][(s<<1)|1&r]+dp[now^1][s])%mod;
+                    if (s&1^1||j==1) dp[now][(s<<1)|1&r]=(dp[now][(s<<1)|1&r]+dp[now^1][s])%mod;
             }
         }
     for(int s=0;s<(1<<m);s++)
